@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const Book = ({ singleBook }) => {
     // const data = use(bookPromise);
     // console.log(data);
-    console.log(singleBook);
+    // console.log(singleBook);
     const {bookId,bookName,author,image, rating, category, tags,yearOfPublishing,publisher} = singleBook;
     return (
       <Link to={`/bookDetails/${bookId}`}>
